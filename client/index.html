@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es" ng-app="galeriaImagenes">
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>Angular Page</title>
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="css/galeria-imagenes.css">
+    <script src="lib/angular/angular.js"></script>
+    <script src="js/galeria-imagenes.js"></script>
+    <script src="js/lista-imagenes.component.js"></script>
+  </head>
+  <body>
+    <div ng-include="header.html"></div>
+    <div class="container">
+      <lista-imagenes></lista-imagenes>
+    </div>
+    <b>{{'It Works!'}}</b>
+    <br/>
+    <p>1 + 2 = {{1 + 2}}</p>
+    <p>Nothing here {{'yet' + '!'}}</p>
+  </body>
+</html>

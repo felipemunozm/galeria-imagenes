@@ -1,0 +1,25 @@
+.content {
+  width: 75%;
+//  float: left;
+  margin: auto;
+
+}
+
+.imageContainer {
+  width: 30%;
+  //float: left;
+
+}
+
+.embedName {
+  font-weight: bold;
+  border: 1px solid blue;
+}
+
+.embedImage {
+  height: 70px;
+}
+
+.container {
+  border: 1px solid red;
+}

@@ -8,17 +8,23 @@
   "scripts": {
     "lint": "eslint .",
     "start": "node .",
+    "copy-libs": "cpx \"node_modules/{angular,angular-*,bootstrap/dist,jquery/dist}/**/*\" client/lib -C",
     "posttest": "npm run lint"
   },
   "dependencies": {
+    "angular": "^1.7.5",
+    "angular-resource": "^1.7.5",
+    "bootstrap": "^4.1.3",
     "compression": "^1.0.3",
     "cors": "^2.5.2",
+    "cpx": "^1.5.0",
     "helmet": "^3.10.0",
+    "jquery": "^3.3.1",
+    "loopback": "^3.22.0",
     "loopback-boot": "^2.6.5",
-    "serve-favicon": "^2.0.1",
-    "strong-error-handler": "^3.0.0",
     "loopback-component-explorer": "^6.2.0",
-    "loopback": "^3.22.0"
+    "serve-favicon": "^2.0.1",
+    "strong-error-handler": "^3.0.0"
   },
   "devDependencies": {
     "eslint": "^3.17.1",
